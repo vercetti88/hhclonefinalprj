@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  flyway:
+    baseline-on-migrate: true
+    user:
+    password:
+    url:
+
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+jwt:
+  jwtSecret:
+  jwtExpirationMs:
+
+file:
+  path:
+
+notification-service:
+  url:
+
+server:
+  port: 8085
+
